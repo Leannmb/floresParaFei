@@ -1059,3 +1059,42 @@ button {
       scale(1.25);
   }
 }
+
+/* =========================
+   AJUSTES PARA MÓVIL
+========================= */
+@media (max-width: 768px) {
+
+  .titulo{
+    font-size: 3rem;
+    margin-top: 30px;
+  }
+
+  .mensaje{
+    font-size: 1.2rem;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .flores{
+    transform: scale(.6);
+    transform-origin: center top;
+  }
+
+  .flores-secundarias{
+    transform: scale(.6);
+    transform-origin: center top;
+  }
+
+  .vegetacion-frontal{
+    transform: scale(.6);
+    transform-origin: center top;
+  }
+
+  .tierra{
+    transform: scale(.6);
+    transform-origin: center top;
+  }
+
+}
